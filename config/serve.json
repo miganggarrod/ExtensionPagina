@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://preproductosmvp.sharepoint.com/sites/ListasPC/SitePages/pagina.aspx",
+      "customActions": {
+        "9483c81b-14cc-4892-9e61-64cf985cd6e9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Parametro enviado",
+            "Top":"Texto en el encabezado de la pagina",
+            "Bottom":"Texto que va en pie de la pagina"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://preproductosmvp.sharepoint.com/sites/ListasPC/SitePages/pagina.aspx",
+      "customActions": {
+        "9483c81b-14cc-4892-9e61-64cf985cd6e9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Parametro enviado",
+            "Top":"Texto en el encabezado de la pagina",
+            "Bottom":"Texto que va en pie de la pagina"
+          }
+        }
+      }
+    }
+  }
+}
